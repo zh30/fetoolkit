@@ -1,0 +1,75 @@
+{
+  "name": "vcgfe",
+  "icon": "assets/icons/icon.png",
+  "displayName": "vcgfe",
+  "description": "视觉中国前端工作流插件",
+  "version": "0.0.1",
+  "publisher": "ZhangHe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hertzZhang/vcgfe.git"
+  },
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "vcg",
+    "visual",
+    "china",
+    "group",
+    "fe"
+  ],
+  "activationEvents": [
+    "onCommand:extension.helloWorld"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.helloWorld",
+        "title": "Hello World"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/js.snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/js.snippets.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile",
+    "test": "node ./out/test/runTest.js",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@types/glob": "^7.1.1",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^10.12.21",
+    "@types/vscode": "^1.40.0",
+    "glob": "^7.1.4",
+    "husky": "^3.1.0",
+    "mocha": "^6.1.4",
+    "standard-version": "^7.0.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.1",
+    "vscode-test": "^1.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "Array map": {
+    "prefix": ["map", "array-map"],
+    "body": "const ${1:name} = ${2:array}.map(${3:element} => ${4:element})$0",
+    "description": "map()方法创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果。"
+  },
+  "Array map return": {
+    "prefix": ["mapr", "arrayMapReturn"],
+    "body": [
+      "const ${1:name} = ${2:array}.map(${3:element} => {",
+      "\t${4}",
+      "\t",
+      "\treturn ${5:element}",
+      "})"
+    ],
+    "description": "map()方法创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果。"
+  },
+  "Array forEach": {
+    "prefix": ["fe", "array-forEach"],
+    "body": [
+      "${1:array}.forEach(${2:element} => {",
+      "\t${3:// Do anything}",
+      "})"
+    ],
+    "description": "forEach()方法对数组中的每个元素执行一次提供的函数。"
+  },
+  "Effect Hook": {
+    "prefix": ["rue", "useEffect"],
+    "body": [
+      "useEffect(() => {",
+      "\t${1:// componentDidMount || componentDidUpdate}",
+      "\t",
+      "\treturn () => {",
+      "\t\t${2:// componentWillUnmount}",
+      "\t}",
+      "}, [${3:input}])"
+    ],
+    "description": "Effect Hook 可以让你在函数组件中执行副作用操作。如果你熟悉 React class 的生命周期函数，你可以把 useEffect Hook 看做 componentDidMount，componentDidUpdate 和 componentWillUnmount 这三个函数的组合。"
+  },
+  "State Hook": {
+    "prefix": ["rus", "useState"],
+    "body": "const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState(${2:initialState})$0",
+    "description": "State Hook 让我们在 React 函数组件上添加内部 state。useState() 方法里面唯一的参数就是初始 state(initialState)。返回值为：当前 state(state) 以及更新 state 的函数(setState)。"
+  },
+  "Context Hook": {
+    "prefix": ["ruc", "useContext"],
+    "body": "const ${1:context} = useContext(${2:initialContext})$0",
+    "description": "Context Hook 接收一个 context 对象（React.createContext 的返回值）并返回该 context 的当前值。当前的 context 值由上层组件中距离当前组件最近的 <MyContext.Provider> 的 value prop 决定。* 别忘记 useContext 的参数必须是 context 对象本身。"
+  },
+  "Ref Hook": {
+    "prefix": ["rur", "useRef"],
+    "body": "const ${1:refContainer} = useRef(${2:initialRef})$0",
+    "description": "Ref Hook 返回一个可变的 ref 对象，其 .current 属性被初始化为传入的参数（initialRef）。返回的 ref 对象在组件的整个生命周期内保持不变。"
+  },
+  "Internal function component": {
+    "prefix": ["ifc", "internalFunctionComponent"],
+    "body": [
+      "const ${1/(.*)/${1:/capitalize}/} = ({",
+      "\tclassName = '',",
+      "\t${2:// props},",
+      "}) => {",
+      "\t${3:// TODO}",
+      "",
+      "\treturn ${4:// TODO}",
+      "}"
+    ],
+    "description": "创建子函数组件 - VCG"
+  },
+  "Function component": {
+    "prefix": ["fc", "functionComponent"],
+    "body": [
+      "import React from 'react';",
+      "import withStyles from 'isomorphic-style-loader/lib/withStyles';",
+      "import cs from 'classnames';",
+      "import styles from './${1/(.*)/${1:/capitalize}/}.scss';",
+      "",
+      "const ${1/(.*)/${1:/capitalize}/} = ({",
+      "\tclassName = '',",
+      "\t${2:// props},",
+      "}) => {",
+      "\t${3:// TODO}",
+      "",
+      "\treturn ${4:// TODO}",
+      "}",
+      "",
+      "export default withStyles(styles)(${1/(.*)/${1:/capitalize}/});"
+    ],
+    "description": "创建函数组件 - VCG"
+  },
+  "Class component": {
+    "prefix": ["cc", "classComponent"],
+    "body": [
+      "import React, { Component } from 'react';",
+      "import PropTypes from 'prop-types';",
+      "import withStyles from 'isomorphic-style-loader/lib/withStyles';",
+      "import cs from 'classnames';",
+      "import styles from './${1/(.*)/${1:/capitalize}/}.scss';",
+      "",
+      "class ${1/(.*)/${1:/capitalize}/} extends Component {",
+      "\tstatic propTypes = {",
+      "\t\t// ${2:propName}: PropTypes.${3:string},",
+      "\t}",
+      "\t",
+      "\tstatic defaultProps = {",
+      "\t\t// ${2}: ${4:\"\"},",
+      "\t}",
+      "\t",
+      "\tstate = {",
+      "\t\t// ${5:stateName}: ${6:\"\"},",
+      "\t}",
+      "\t",
+      "\trender() {",
+      "\t\tconst { ${2} } = this.props;",
+      "\t\tconst { ${5} } = this.state;",
+      "",
+      "\t\treturn (",
+      "\t\t\t${7:// TODO}",
+      "\t\t)",
+      "\t}",
+      "}",
+      "",
+      "export default withStyles(styles)(${1/(.*)/${1:/capitalize}/});"
+    ],
+    "description": "创建Class组件 - VCG"
+  },
+  "Static propTypes": {
+    "prefix": ["ccsp"],
+    "body": [
+      "static propTypes = {",
+      "\t${1}: PropTypes.${2:string},",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "声明 propTypes 静态方法 - VCG"
+  },
+  "Static defaultProps": {
+    "prefix": ["ccsd", "defaultProps"],
+    "body": [
+      "static defaultProps = {",
+      "\t${1}: PropTypes.${2:string},",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "声明 defaultProps 静态方法 - VCG"
+  },
+  "ClassComponent handle function": {
+    "prefix": ["cchf", "classHandleFunction"],
+    "body": [
+      "handle${1/(.*)/${1:/capitalize}/} = ({ ${2} }) => {",
+      "\t${3}",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "声明 class 组件内部处理函数 - VCG"
+  },
+  "FunctionComponent handle function": {
+    "prefix": ["fchf", "functionHandleFunction"],
+    "body": [
+      "const handle${1/(.*)/${1:/capitalize}/} = (${2}) => {",
+      "\t${3}",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "声明函数组件内部处理函数 - VCG"
+  },
+  "Destructuring props": {
+    "prefix": ["tp"],
+    "body": ["const { ${1} } = this.props;", "$0"],
+    "description": "解构 props - VCG"
+  },
+  "Destructuring state": {
+    "prefix": ["ts"],
+    "body": ["const { ${1} } = this.state;", "$0"],
+    "description": "解构 state - VCG"
+  },
+  "Import": {
+    "prefix": ["import", "imp", "ir"],
+    "body": "import ${2:React} from '${1:react}';$0",
+    "description": "导入其他包到本文件 - VCG"
+  },
+  "Export": {
+    "prefix": ["export", "exp", "ed"],
+    "body": "export default ${1};$0",
+    "description": "导入包 - VCG"
+  }
+}
