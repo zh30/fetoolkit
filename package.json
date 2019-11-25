@@ -1,6 +1,6 @@
 {
   "name": "vcgfe",
-  "icon": "assets/icons/icon.png",
+  "icon": "assets/icons/logo.png",
   "displayName": "vcgfe",
   "description": "视觉中国前端工作流插件",
   "version": "0.0.1",
