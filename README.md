@@ -6,11 +6,11 @@ VCG 前端工作流插件。
 
 |             Prefix | Method                                             |
 | -----------------: | -------------------------------------------------- |
-|   `rus | useState` | `const [state, setState] = useState(initialState)` |
-| `ruc | useContext` | `const context = useContext(initialContext)`       |
-|     `rur | useRef` | `const refContainer = useRef(initialRef)`          |
+|   `hus | useState` | `const [state, setState] = useState(initialState)` |
+| `huc | useContext` | `const context = useContext(initialContext)`       |
+|     `hur | useRef` | `const refContainer = useRef(initialRef)`          |
 
-### `rue | useEffect`
+### `hue | useEffect`
 
 ```javascript
 useEffect(() => {
@@ -20,6 +20,32 @@ useEffect(() => {
     componentWillUnmount;
   };
 }, [input]);
+```
+
+### `hucb | useCallback`
+
+```javascript
+const memoizedCallback = useCallback(() => {
+  // doSomething(a, b);
+}, [a, b]);
+```
+
+### `hum | useMemo`
+
+```javascript
+const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
+```
+
+### `hurd | useReducer`
+
+```javascript
+const [state, dispatch] = useReducer(reducer, initialArg, init);
+```
+
+### `huih | useImperativeHandle`
+
+```javascript
+useImperativeHandle(ref, createHandle, [deps]);
 ```
 
 ### `ifc | internalFunctionComponent`
@@ -144,4 +170,10 @@ import React from "react";
 
 ```javascript
 export default ;
+```
+
+### `ec | expc | exportc`
+
+```javascript
+export const  = () => ;
 ```
