@@ -177,3 +177,69 @@ export default ;
 ```javascript
 export const  = () => ;
 ```
+
+### `cin , consoleinfo`
+
+```javascript
+console.info("msg: ", subst);
+```
+
+### `clo , consolelog`
+
+```javascript
+console.log("msg: ", subst);
+```
+
+### `cer , consoleerror`
+
+```javascript
+console.error("msg: ", subst);
+```
+
+### `cdi , consoledir`
+
+```javascript
+console.dir(obj);
+```
+
+### `cta , consoletable`
+
+```javascript
+console.table(data, columns);
+```
+
+### `cti , consoletime`
+
+```javascript
+console.time(label);
+```
+
+### `cte , consoletimeend`
+
+```javascript
+console.timeEnd(label);
+```
+
+### `ctl , consoletimeLog`
+
+```javascript
+console.timeLog(label);
+```
+
+### `cwa , consolewarn`
+
+```javascript
+console.warn("msg: ", subst);
+```
+
+### `ccl , consoleclear`
+
+```javascript
+console.clear();
+```
+
+### `cco , consolecount`
+
+```javascript
+console.count(label);
+```
