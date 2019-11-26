@@ -1,13 +1,13 @@
 {
-  "name": "vcgfe",
+  "name": "vcgfetoolkit",
   "icon": "assets/icons/logo.png",
-  "displayName": "vcgfe",
-  "description": "视觉中国前端工作流插件",
+  "displayName": "VCG FE Toolkit",
+  "description": "Visual China Group front-end development toolkit.",
   "version": "0.0.2",
   "publisher": "ZhangHe",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hertzZhang/vcgfe.git"
+    "url": "https://github.com/hertzZhang/vcgfetoolkit.git"
   },
   "engines": {
     "vscode": "^1.40.0"

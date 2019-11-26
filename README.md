@@ -1,16 +1,16 @@
-# VCG FE
+# VCG FE Toolkit
 
-VCG 前端工作流插件。
+Visual China Group front-end development toolkit.
 
 ## React Keys
 
 |             Prefix | Method                                             |
 | -----------------: | -------------------------------------------------- |
-|   `hus | useState` | `const [state, setState] = useState(initialState)` |
-| `huc | useContext` | `const context = useContext(initialContext)`       |
-|     `hur | useRef` | `const refContainer = useRef(initialRef)`          |
+|   `hus , useState` | `const [state, setState] = useState(initialState)` |
+| `huc , useContext` | `const context = useContext(initialContext)`       |
+|     `hur , useRef` | `const refContainer = useRef(initialRef)`          |
 
-### `hue | useEffect`
+### `hue , useEffect`
 
 ```javascript
 useEffect(() => {
@@ -22,7 +22,7 @@ useEffect(() => {
 }, [input]);
 ```
 
-### `hucb | useCallback`
+### `hucb , useCallback`
 
 ```javascript
 const memoizedCallback = useCallback(() => {
@@ -30,25 +30,25 @@ const memoizedCallback = useCallback(() => {
 }, [a, b]);
 ```
 
-### `hum | useMemo`
+### `hum , useMemo`
 
 ```javascript
 const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
 ```
 
-### `hurd | useReducer`
+### `hurd , useReducer`
 
 ```javascript
 const [state, dispatch] = useReducer(reducer, initialArg, init);
 ```
 
-### `huih | useImperativeHandle`
+### `huih , useImperativeHandle`
 
 ```javascript
 useImperativeHandle(ref, createHandle, [deps]);
 ```
 
-### `ifc | internalFunctionComponent`
+### `ifc , internalFunctionComponent`
 
 ```javascript
 const  = ({
@@ -61,7 +61,7 @@ const  = ({
 }
 ```
 
-### `fc | functionComponent`
+### `fc , functionComponent`
 
 ```javascript
 import React from 'react';
@@ -81,7 +81,7 @@ const  = ({
 export default withStyles(styles)();
 ```
 
-### `cc | classComponent`
+### `cc , classComponent`
 
 ```javascript
 import React, { Component } from 'react';
@@ -126,7 +126,7 @@ static propTypes = {
 
 ```
 
-### `ccsd | defaultProps`
+### `ccsd , defaultProps`
 
 ```javascript
 static defaultProps = {
@@ -136,13 +136,13 @@ static defaultProps = {
 
 ```
 
-### `cchf | classHandleFunction`
+### `cchf , classHandleFunction`
 
 ```javascript
 handle = ({}) => {};
 ```
 
-### `fchf | functionHandleFunction`
+### `fchf , functionHandleFunction`
 
 ```javascript
 const handle = () => {};
@@ -160,19 +160,19 @@ const {} = this.props;
 const {} = this.state;
 ```
 
-### `ir | imp | import`
+### `ir , imp , import`
 
 ```javascript
 import React from "react";
 ```
 
-### `ed | exp | export`
+### `ed , exp , export`
 
 ```javascript
 export default ;
 ```
 
-### `ec | expc | exportc`
+### `ec , expc , exportc`
 
 ```javascript
 export const  = () => ;
