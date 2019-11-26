@@ -221,17 +221,17 @@
   },
   "Console info": {
     "prefix": ["cin", "consoleinfo"],
-    "body": "console.info('${1:msg}: ', ${2:subst});$0",
+    "body": "console.info('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
     "description": "Console info - VCG"
   },
   "Console log": {
     "prefix": ["clo", "consolelog"],
-    "body": "console.log('${1:msg}: ', ${2:subst});$0",
+    "body": "console.log('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
     "description": "Console log - VCG"
   },
   "Console error": {
     "prefix": ["cer", "consoleerror"],
-    "body": "console.error('${1:msg}: ', ${2:subst});$0",
+    "body": "console.error('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
     "description": "Console error - VCG"
   },
   "Console dir": {
@@ -261,7 +261,7 @@
   },
   "Console warn": {
     "prefix": ["cwa", "consolewarn"],
-    "body": "console.warn('${1:msg}: ', ${2:subst});$0",
+    "body": "console.warn('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
     "description": "Console warn - VCG"
   },
   "Console clear": {
