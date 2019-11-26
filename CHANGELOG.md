@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/hertzZhang/vcgfetoolkit/compare/v0.0.3...v0.1.1) (2019-11-26)
+
+
+### Features
+
+* **dev.md:** 添加开发手册 ([b68f784](https://github.com/hertzZhang/vcgfetoolkit/commit/b68f784e3919e26cfbb4c030ac339ead17bede1c))
+* **js.snippets.json:** 增加console系列操作snippets ([df143b3](https://github.com/hertzZhang/vcgfetoolkit/commit/df143b3fe62a0e391d33fe4acb2b43ad42045d6f))
+
+
+### Bug Fixes
+
+* **js.snippets.json:** 优化clo等片段的体验。 ([2c4a708](https://github.com/hertzZhang/vcgfetoolkit/commit/2c4a708662f142e755440ec5a52f69e9ef86b93e))
+
 ## [0.1.0](https://github.com/hertzZhang/vcgfetoolkit/compare/v0.0.3...v0.1.0) (2019-11-26)
 
 
