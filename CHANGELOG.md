@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/hertzZhang/vcgfetoolkit/compare/v0.0.2...v0.0.3) (2019-11-26)
+
+
+### Features
+
+* **package.json:** 修改插件名字和说明文档 ([5febbe6](https://github.com/hertzZhang/vcgfetoolkit/commit/5febbe635a9f6b52ecd65c104f79ef6e85b61aaf))
+
 ### 0.0.2 (2019-11-25)
 
 
