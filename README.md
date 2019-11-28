@@ -255,3 +255,19 @@ console.clear();
 ```javascript
 console.count(label);
 ```
+
+## Style keys
+
+### `fslh`
+
+```css
+font-size: 16px;
+line-height: 24px;
+```
+
+### `wh`
+
+```css
+width: 1280px;
+height: 344px;
+```

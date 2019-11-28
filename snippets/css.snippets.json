@@ -1,0 +1,12 @@
+{
+  "fontsize lineheight": {
+    "prefix": ["fslh"],
+    "body": ["font-size: ${1:16}px;", "line-height: ${2:24}px;"],
+    "description": "font-size, line-height - VCG"
+  },
+  "width height": {
+    "prefix": ["wh"],
+    "body": ["width: ${1:1280}px;", "height: ${2:344}px;"],
+    "description": "width, height - VCG"
+  }
+}

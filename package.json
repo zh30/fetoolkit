@@ -41,6 +41,14 @@
       {
         "language": "javascriptreact",
         "path": "./snippets/js.snippets.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/css.snippets.json"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/css.snippets.json"
       }
     ]
   },
