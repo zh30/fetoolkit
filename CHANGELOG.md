@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/hertzZhang/vcgfetoolkit/compare/v0.1.2...v0.2.0) (2019-11-28)
+
+
+### Features
+
+* **css.snippets.json:** 增加css的用户代码片段 ([aa27249](https://github.com/hertzZhang/vcgfetoolkit/commit/aa27249bab251826c676e3d914b204afa9285034))
+
 ### [0.1.2](https://github.com/hertzZhang/vcgfetoolkit/compare/v0.1.1...v0.1.2) (2019-11-28)
 
 
