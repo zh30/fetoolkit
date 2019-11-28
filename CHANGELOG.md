@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/hertzZhang/vcgfetoolkit/compare/v0.1.1...v0.1.2) (2019-11-28)
+
+
+### Features
+
+* **js.snippets.json:** 增加用户代码片段：classnames和withStyles ([f9a55b2](https://github.com/hertzZhang/vcgfetoolkit/commit/f9a55b2539a16030dbf5d8c0811ecda8b980f9ec))
+
 ### [0.1.1](https://github.com/hertzZhang/vcgfetoolkit/compare/v0.0.3...v0.1.1) (2019-11-26)
 
 
