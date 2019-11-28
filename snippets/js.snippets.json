@@ -209,6 +209,16 @@
     "body": "import ${2:React} from '${1:react}';$0",
     "description": "导入其他包到本文件 - VCG"
   },
+  "Import withStyles": {
+    "prefix": ["importwithStyles", "imws"],
+    "body": "import ${1:withStyles} from '${2:isomorphic-style-loader/lib/withStyles}';$0",
+    "description": "导入 withStyles 包到本文件 - VCG"
+  },
+  "Import classnames": {
+    "prefix": ["importclassnames", "imcn"],
+    "body": "import ${1:cs} from '${2:classnames}';$0",
+    "description": "导入 classnames 包到本文件 - VCG"
+  },
   "Export": {
     "prefix": ["export", "exp", "ed"],
     "body": "export default ${1};$0",
