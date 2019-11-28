@@ -215,7 +215,7 @@
     "description": "导入 withStyles 包到本文件 - VCG"
   },
   "Import classnames": {
-    "prefix": ["importclassnames", "imcm"],
+    "prefix": ["importclassnames", "imcn"],
     "body": "import ${1:cs} from '${2:classnames}';$0",
     "description": "导入 classnames 包到本文件 - VCG"
   },

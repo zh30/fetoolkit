@@ -166,6 +166,18 @@ const {} = this.state;
 import React from "react";
 ```
 
+### `imws , importwithStyles`
+
+```javascript
+import withStyles from "isomorphic-style-loader/lib/withStyles";
+```
+
+### `imcn , importclassnames`
+
+```javascript
+import cs from "classnames";
+```
+
 ### `ed , exp , export`
 
 ```javascript
