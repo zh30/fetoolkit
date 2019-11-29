@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/hertzZhang/vcgfetoolkit/compare/v0.2.0...v0.2.1) (2019-11-29)
+
+
+### Features
+
+* **scss.snippets.json:** 增加样式文字溢出隐藏用户片段 ([a9d5f90](https://github.com/hertzZhang/vcgfetoolkit/commit/a9d5f9000f3abca750f15e8835a1a0b966031ce5)), closes [#5](https://github.com/hertzZhang/vcgfetoolkit/issues/5)
+
 ## [0.2.0](https://github.com/hertzZhang/vcgfetoolkit/compare/v0.1.2...v0.2.0) (2019-11-28)
 
 
