@@ -19,6 +19,29 @@
     ],
     "description": "单行文字溢出解决方案 - VCG"
   },
+  "text ellipsis multiline": {
+    "prefix": ["tem"],
+    "body": [
+      "position: relative;",
+      "line-height: ${1:24}px;",
+      "height: ${2:48}px;",
+      "font-size: ${3:16}px;",
+      "overflow: hidden;",
+      "display: block;",
+      "width: 100%;",
+      "",
+      "\t&:after {",
+      "\t\tcontent: '';",
+      "\t\tposition: absolute;",
+      "\t\tbottom: 0;",
+      "\t\tright: 0;",
+      "\t\twidth: 150px;",
+      "\t\theight: ${1}px;",
+      "\t\tbackground: linear-gradient(to right, rgba(0, 0, 0, 0), #ffffff 50%);",
+      "\t}"
+    ],
+    "description": "多行文字溢出解决方案 - VCG"
+  },
   "text ellipsis WebKit": {
     "prefix": ["temw"],
     "body": [

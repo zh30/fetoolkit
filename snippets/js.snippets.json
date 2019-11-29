@@ -121,9 +121,9 @@
       "import PropTypes from 'prop-types';",
       "import withStyles from 'isomorphic-style-loader/lib/withStyles';",
       "import cs from 'classnames';",
-      "import styles from './${1/(.*)/${1:/capitalize}/}.scss';",
+      "import styles from './$TM_FILENAME_BASE.scss';",
       "",
-      "class ${1/(.*)/${1:/capitalize}/} extends Component {",
+      "class $TM_FILENAME_BASE extends Component {",
       "\tstatic propTypes = {",
       "\t\t// ${2:propName}: PropTypes.${3:string},",
       "\t}",
@@ -146,7 +146,7 @@
       "\t}",
       "}",
       "",
-      "export default withStyles(styles)(${1/(.*)/${1:/capitalize}/});"
+      "export default withStyles(styles)($TM_FILENAME_BASE);"
     ],
     "description": "创建Class组件 - VCG"
   },
