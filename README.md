@@ -258,7 +258,7 @@ console.count(label);
 
 ## Style keys
 
-### `fslh`
+### `fl`
 
 ```css
 font-size: 16px;
@@ -270,4 +270,45 @@ line-height: 24px;
 ```css
 width: 1280px;
 height: 344px;
+```
+
+### `te`
+
+```css
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+width: 100%;
+```
+
+### `tem`
+
+```css
+position: relative;
+line-height: 24px;
+height: 48px;
+font-size: 16px;
+overflow: hidden;
+display: block;
+width: 100%;
+
+&:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 150px;
+  height: 24px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #ffffff 50%);
+}
+```
+
+### `temw`
+
+```css
+overflow: hidden;
+display: -webkit-box;
+text-overflow: ellipsis;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
 ```

@@ -48,7 +48,7 @@
       },
       {
         "language": "scss",
-        "path": "./snippets/css.snippets.json"
+        "path": "./snippets/scss.snippets.json"
       }
     ]
   },
