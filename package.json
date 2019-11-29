@@ -1,6 +1,6 @@
 {
   "name": "vcgfetoolkit",
-  "icon": "assets/icons/logo.png",
+  "icon": "assets/icons/icon.png",
   "displayName": "VCG FE Toolkit",
   "description": "Visual China Group front-end development toolkit.",
   "version": "0.2.1",
