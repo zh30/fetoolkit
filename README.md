@@ -256,6 +256,21 @@ console.clear();
 console.count(label);
 ```
 
+### `cmmf , commentsfunctions`
+
+```javascript
+/**
+ * 用一句话介绍此函数是干嘛用的。
+ *
+ * @param {string} employee - 参数的介绍文字
+ * @return {string} 函数返回的数据
+ *
+ * @example
+ *
+ *     const xx = foo('hello')
+ */
+```
+
 ## Style keys
 
 ### `fl`
@@ -311,4 +326,13 @@ display: -webkit-box;
 text-overflow: ellipsis;
 -webkit-line-clamp: 2;
 -webkit-box-orient: vertical;
+```
+
+### `hvc`
+
+```css
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 ```
