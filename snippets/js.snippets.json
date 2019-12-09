@@ -283,5 +283,21 @@
     "prefix": ["cco", "consolecount"],
     "body": "console.count(${1:label});$0",
     "description": "Console count - VCG"
+  },
+  "Comments functions": {
+    "prefix": ["cmmf", "commentsfunctions"],
+    "body": [
+      "/**",
+      " * ${1:用一句话介绍此函数是干嘛用的。}",
+      " *",
+      " * @param {${2|string,number,bool,object,null,undefined,function,Array,Date,RegExp,HTMLElement,HTMLInputElement|}} ${3:employee} - ${4:参数的介绍文字}",
+      " * @return {${5|string,number,bool,object,null,undefined,function,Array,Date,RegExp,HTMLElement,HTMLInputElement|}} ${6:函数返回的数据}",
+      " *",
+      " * @example",
+      " *",
+      " *     ${7:const xx = foo('hello')}",
+      " */"
+    ],
+    "description": "函数注释 - VCG"
   }
 }

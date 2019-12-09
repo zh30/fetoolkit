@@ -52,5 +52,15 @@
       "-webkit-box-orient: vertical;"
     ],
     "description": "WebKit内核浏览器文字多行溢出解决方案 - VCG"
+  },
+  "horizontal vertical center": {
+    "prefix": ["hvc"],
+    "body": [
+      "position: absolute;",
+      "top: 50%;",
+      "left: 50%;",
+      "transform: translate(-50%, -50%);"
+    ],
+    "description": "元素横纵向居中显示 - VCG"
   }
 }
