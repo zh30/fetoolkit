@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.2](https://github.com/hertzZhang/vcgfetoolkit/compare/v0.3.1...v0.3.2) (2019-12-25)
+
+
+### Features
+
+* **js.snippets.json:** 增加react的class里的state的用户代码片段 ([a75ee00](https://github.com/hertzZhang/vcgfetoolkit/commit/a75ee0083b335f4f99bd156c5fab5e44a457d304))
+
 ### [0.3.1](https://github.com/hertzZhang/vcgfetoolkit/compare/v0.3.0...v0.3.1) (2019-12-09)
 
 
