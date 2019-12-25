@@ -172,6 +172,17 @@
     ],
     "description": "声明 defaultProps 静态方法 - VCG"
   },
+  "State object": {
+    "prefix": ["state"],
+    "body": [
+      "state = {",
+      "\t${1}",
+      "}",
+      "",
+      "$0"
+    ],
+    "description": "声明 state 对象 - VCG"
+  },
   "ClassComponent handle function": {
     "prefix": ["cchf", "classHandleFunction"],
     "body": [

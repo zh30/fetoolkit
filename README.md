@@ -136,6 +136,15 @@ static defaultProps = {
 
 ```
 
+### `state`
+
+```javascript
+state = {
+  
+}
+
+```
+
 ### `cchf , classHandleFunction`
 
 ```javascript
