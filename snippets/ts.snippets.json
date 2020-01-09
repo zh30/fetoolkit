@@ -1,0 +1,108 @@
+{
+  "Array map": {
+    "prefix": ["map", "array-map"],
+    "body": "const ${1:name} = ${2:array}.map(${3:element} => ${4:element})$0",
+    "description": "map()方法创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果。"
+  },
+  "Array map return": {
+    "prefix": ["mapr", "arrayMapReturn"],
+    "body": [
+      "const ${1:name} = ${2:array}.map(${3:element} => {",
+      "\t${4}",
+      "\t",
+      "\treturn ${5:element}",
+      "})"
+    ],
+    "description": "map()方法创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果。"
+  },
+  "Array forEach": {
+    "prefix": ["fe", "array-forEach"],
+    "body": [
+      "${1:array}.forEach(${2:element} => {",
+      "\t${3:// Do anything}",
+      "})"
+    ],
+    "description": "forEach()方法对数组中的每个元素执行一次提供的函数。"
+  },
+  "Export": {
+    "prefix": ["export", "exp", "ed"],
+    "body": "export default ${1};$0",
+    "description": "导出包 - VCG"
+  },
+  "Export const": {
+    "prefix": ["exportc", "expc", "ec"],
+    "body": "export const ${1} = ${2:()} => ${3};$0",
+    "description": "导出包 - VCG"
+  },
+  "Console info": {
+    "prefix": ["cin", "consoleinfo"],
+    "body": "console.info('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
+    "description": "Console info - VCG"
+  },
+  "Console log": {
+    "prefix": ["clo", "consolelog"],
+    "body": "console.log('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
+    "description": "Console log - VCG"
+  },
+  "Console error": {
+    "prefix": ["cer", "consoleerror"],
+    "body": "console.error('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
+    "description": "Console error - VCG"
+  },
+  "Console dir": {
+    "prefix": ["cdi", "consoledir"],
+    "body": "console.dir(${1:obj});$0",
+    "description": "Console dir - VCG"
+  },
+  "Console table": {
+    "prefix": ["cta", "consoletable"],
+    "body": "console.table(${1:data}, ${2:columns});$0",
+    "description": "Console table - VCG"
+  },
+  "Console time": {
+    "prefix": ["cti", "consoletime"],
+    "body": "console.time(${1:label});$0",
+    "description": "Console time - VCG"
+  },
+  "Console timeEnd": {
+    "prefix": ["cte", "consoletimeend"],
+    "body": "console.timeEnd(${1:label});$0",
+    "description": "Console timeEnd - VCG"
+  },
+  "Console timeLog": {
+    "prefix": ["ctl", "consoletimeLog"],
+    "body": "console.timeLog(${1:label});$0",
+    "description": "Console timeLog - VCG"
+  },
+  "Console warn": {
+    "prefix": ["cwa", "consolewarn"],
+    "body": "console.warn('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
+    "description": "Console warn - VCG"
+  },
+  "Console clear": {
+    "prefix": ["ccl", "consoleclear"],
+    "body": "console.clear();$0",
+    "description": "Console clear - VCG"
+  },
+  "Console count": {
+    "prefix": ["cco", "consolecount"],
+    "body": "console.count(${1:label});$0",
+    "description": "Console count - VCG"
+  },
+  "Comments functions": {
+    "prefix": ["cmmf", "commentsfunctions"],
+    "body": [
+      "/**",
+      " * ${1:用一句话介绍此函数是干嘛用的。}",
+      " *",
+      " * @param {${2|string,number,bool,object,null,undefined,function,Array,Date,RegExp,HTMLElement,HTMLInputElement|}} ${3:employee} - ${4:参数的介绍文字}",
+      " * @return {${5|string,number,bool,object,null,undefined,function,Array,Date,RegExp,HTMLElement,HTMLInputElement|}} ${6:函数返回的数据}",
+      " *",
+      " * @example",
+      " *",
+      " *     ${7:const xx = foo('hello')}",
+      " */"
+    ],
+    "description": "函数注释 - VCG"
+  }
+}
