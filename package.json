@@ -3,7 +3,7 @@
   "icon": "assets/icons/icon.png",
   "displayName": "VCG FE Toolkit",
   "description": "Visual China Group front-end development toolkit.",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "publisher": "ZhangHe",
   "repository": {
     "type": "git",
