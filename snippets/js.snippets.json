@@ -99,9 +99,9 @@
       "import React from 'react';",
       "import withStyles from 'isomorphic-style-loader/lib/withStyles';",
       "import cs from 'classnames';",
-      "import styles from './${1/(.*)/${1:/capitalize}/}.scss';",
+      "import styles from './$TM_FILENAME_BASE.scss';",
       "",
-      "const ${1/(.*)/${1:/capitalize}/} = ({",
+      "const $TM_FILENAME_BASE = ({",
       "\tclassName = '',",
       "\t${2:// props},",
       "}) => {",
@@ -110,7 +110,7 @@
       "\treturn ${4:// TODO}",
       "}",
       "",
-      "export default withStyles(styles)(${1/(.*)/${1:/capitalize}/});"
+      "export default withStyles(styles)($TM_FILENAME_BASE);"
     ],
     "description": "创建函数组件 - VCG"
   },
