@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.4](https://github.com/hertzZhang/vcgfetoolkit/compare/v0.3.3...v0.3.4) (2020-01-31)
+
+
+### Features
+
+* **js.snippets.json:** 升级fc函数的默认变量名字为文件名字 ([a6de714](https://github.com/hertzZhang/vcgfetoolkit/commit/a6de714e94a2de4cc9abd829eeb38e218317f9a5))
+
 ### [0.3.3](https://github.com/hertzZhang/vcgfetoolkit/compare/v0.3.2...v0.3.3) (2020-01-09)
 
 
