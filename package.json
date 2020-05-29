@@ -7,7 +7,7 @@
   "publisher": "ZhangHe",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hertzZhang/fetoolkit.git"
+    "url": "https://github.com/zhanghecool/fetoolkit.git"
   },
   "engines": {
     "vscode": "^1.40.0"
