@@ -1,3 +1,15 @@
+## [0.3.5](https://github.com/zhanghecool/fetoolkit/compare/v0.3.4...v0.3.5) (2020-05-29)
+
+
+### Bug Fixes
+
+* **package.json:** 修正repository的URL ([c3134d0](https://github.com/zhanghecool/fetoolkit/commit/c3134d05cc51a55c58f105f95355fccd279222a4))
+
+
+### Performance Improvements
+
+* **all:** 全新升级 ([2fc4cd6](https://github.com/zhanghecool/fetoolkit/commit/2fc4cd6910248045be443d52c4b47cf4585863b1))
+
 ### [0.3.4](https://github.com/hertzZhang/fetoolkit/compare/v0.3.3...v0.3.4) (2020-01-31)
 
 
