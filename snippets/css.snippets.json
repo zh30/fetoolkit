@@ -2,12 +2,12 @@
   "fontsize lineheight": {
     "prefix": ["fl"],
     "body": ["font-size: ${1:16}px;", "line-height: ${2:24}px;"],
-    "description": "font-size, line-height - VCG"
+    "description": "font-size, line-height - FET"
   },
   "width height": {
     "prefix": ["wh"],
     "body": ["width: ${1:1280}px;", "height: ${2:344}px;"],
-    "description": "width, height - VCG"
+    "description": "width, height - FET"
   },
   "text ellipsis": {
     "prefix": ["te"],
@@ -17,7 +17,7 @@
       "text-overflow: ellipsis;",
       "width: 100%;"
     ],
-    "description": "单行文字溢出解决方案 - VCG"
+    "description": "单行文字溢出解决方案 - FET"
   },
   "text ellipsis WebKit": {
     "prefix": ["temw"],
@@ -28,7 +28,7 @@
       "-webkit-line-clamp: ${1|2,3,4,5|};",
       "-webkit-box-orient: vertical;"
     ],
-    "description": "WebKit内核浏览器文字多行溢出解决方案 - VCG"
+    "description": "WebKit内核浏览器文字多行溢出解决方案 - FET"
   },
   "horizontal vertical center": {
     "prefix": ["hvc"],
@@ -38,6 +38,6 @@
       "left: 50%;",
       "transform: translate(-50%, -50%);"
     ],
-    "description": "元素横纵向居中显示 - VCG"
+    "description": "元素横纵向居中显示 - FET"
   }
 }

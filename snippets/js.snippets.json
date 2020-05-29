@@ -91,7 +91,7 @@
       "\treturn ${4:// TODO}",
       "}"
     ],
-    "description": "创建子函数组件 - VCG"
+    "description": "创建子函数组件 - FET"
   },
   "Function component": {
     "prefix": ["fc", "functionComponent"],
@@ -112,7 +112,7 @@
       "",
       "export default withStyles(styles)($TM_FILENAME_BASE);"
     ],
-    "description": "创建函数组件 - VCG"
+    "description": "创建函数组件 - FET"
   },
   "Class component": {
     "prefix": ["cc", "classComponent"],
@@ -148,7 +148,7 @@
       "",
       "export default withStyles(styles)($TM_FILENAME_BASE);"
     ],
-    "description": "创建Class组件 - VCG"
+    "description": "创建Class组件 - FET"
   },
   "Static propTypes": {
     "prefix": ["ccsp"],
@@ -159,7 +159,7 @@
       "",
       "$0"
     ],
-    "description": "声明 propTypes 静态方法 - VCG"
+    "description": "声明 propTypes 静态方法 - FET"
   },
   "Static defaultProps": {
     "prefix": ["ccsd", "defaultProps"],
@@ -170,7 +170,7 @@
       "",
       "$0"
     ],
-    "description": "声明 defaultProps 静态方法 - VCG"
+    "description": "声明 defaultProps 静态方法 - FET"
   },
   "State object": {
     "prefix": ["state"],
@@ -181,7 +181,7 @@
       "",
       "$0"
     ],
-    "description": "声明 state 对象 - VCG"
+    "description": "声明 state 对象 - FET"
   },
   "ClassComponent handle function": {
     "prefix": ["cchf", "classHandleFunction"],
@@ -192,7 +192,7 @@
       "",
       "$0"
     ],
-    "description": "声明 class 组件内部处理函数 - VCG"
+    "description": "声明 class 组件内部处理函数 - FET"
   },
   "FunctionComponent handle function": {
     "prefix": ["fchf", "functionHandleFunction"],
@@ -203,97 +203,97 @@
       "",
       "$0"
     ],
-    "description": "声明函数组件内部处理函数 - VCG"
+    "description": "声明函数组件内部处理函数 - FET"
   },
   "Destructuring props": {
     "prefix": ["tp"],
     "body": ["const { ${1} } = this.props;", "$0"],
-    "description": "解构 props - VCG"
+    "description": "解构 props - FET"
   },
   "Destructuring state": {
     "prefix": ["ts"],
     "body": ["const { ${1} } = this.state;", "$0"],
-    "description": "解构 state - VCG"
+    "description": "解构 state - FET"
   },
   "Import": {
     "prefix": ["import", "imp", "ir"],
     "body": "import ${2:React} from '${1:react}';$0",
-    "description": "导入其他包到本文件 - VCG"
+    "description": "导入其他包到本文件 - FET"
   },
   "Import withStyles": {
     "prefix": ["importwithStyles", "imws"],
     "body": "import ${1:withStyles} from '${2:isomorphic-style-loader/lib/withStyles}';$0",
-    "description": "导入 withStyles 包到本文件 - VCG"
+    "description": "导入 withStyles 包到本文件 - FET"
   },
   "Import classnames": {
     "prefix": ["importclassnames", "imcn"],
     "body": "import ${1:cs} from '${2:classnames}';$0",
-    "description": "导入 classnames 包到本文件 - VCG"
+    "description": "导入 classnames 包到本文件 - FET"
   },
   "Export": {
     "prefix": ["export", "exp", "ed"],
     "body": "export default ${1};$0",
-    "description": "导出包 - VCG"
+    "description": "导出包 - FET"
   },
   "Export const": {
     "prefix": ["exportc", "expc", "ec"],
     "body": "export const ${1} = ${2:()} => ${3};$0",
-    "description": "导出包 - VCG"
+    "description": "导出包 - FET"
   },
   "Console info": {
     "prefix": ["cin", "consoleinfo"],
     "body": "console.info('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
-    "description": "Console info - VCG"
+    "description": "Console info - FET"
   },
   "Console log": {
     "prefix": ["clo", "consolelog"],
     "body": "console.log('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
-    "description": "Console log - VCG"
+    "description": "Console log - FET"
   },
   "Console error": {
     "prefix": ["cer", "consoleerror"],
     "body": "console.error('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
-    "description": "Console error - VCG"
+    "description": "Console error - FET"
   },
   "Console dir": {
     "prefix": ["cdi", "consoledir"],
     "body": "console.dir(${1:obj});$0",
-    "description": "Console dir - VCG"
+    "description": "Console dir - FET"
   },
   "Console table": {
     "prefix": ["cta", "consoletable"],
     "body": "console.table(${1:data}, ${2:columns});$0",
-    "description": "Console table - VCG"
+    "description": "Console table - FET"
   },
   "Console time": {
     "prefix": ["cti", "consoletime"],
     "body": "console.time(${1:label});$0",
-    "description": "Console time - VCG"
+    "description": "Console time - FET"
   },
   "Console timeEnd": {
     "prefix": ["cte", "consoletimeend"],
     "body": "console.timeEnd(${1:label});$0",
-    "description": "Console timeEnd - VCG"
+    "description": "Console timeEnd - FET"
   },
   "Console timeLog": {
     "prefix": ["ctl", "consoletimeLog"],
     "body": "console.timeLog(${1:label});$0",
-    "description": "Console timeLog - VCG"
+    "description": "Console timeLog - FET"
   },
   "Console warn": {
     "prefix": ["cwa", "consolewarn"],
     "body": "console.warn('${1/(.*)/${1:/capitalize}/}: ', ${1:subst});$0",
-    "description": "Console warn - VCG"
+    "description": "Console warn - FET"
   },
   "Console clear": {
     "prefix": ["ccl", "consoleclear"],
     "body": "console.clear();$0",
-    "description": "Console clear - VCG"
+    "description": "Console clear - FET"
   },
   "Console count": {
     "prefix": ["cco", "consolecount"],
     "body": "console.count(${1:label});$0",
-    "description": "Console count - VCG"
+    "description": "Console count - FET"
   },
   "Comments functions": {
     "prefix": ["cmmf", "commentsfunctions"],
@@ -309,6 +309,6 @@
       " *     ${7:const xx = foo('hello')}",
       " */"
     ],
-    "description": "函数注释 - VCG"
+    "description": "函数注释 - FET"
   }
 }

@@ -1,13 +1,13 @@
 {
   "name": "vcgfetoolkit",
   "icon": "assets/icons/icon.png",
-  "displayName": "VCG FE Toolkit",
-  "description": "Visual China Group front-end development toolkit.",
-  "version": "0.3.4",
+  "displayName": "FE Toolkit",
+  "description": "Front-end development toolkit.",
+  "version": "0.3.5",
   "publisher": "ZhangHe",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hertzZhang/vcgfetoolkit.git"
+    "url": "https://github.com/hertzZhang/fetoolkit.git"
   },
   "engines": {
     "vscode": "^1.40.0"
@@ -16,10 +16,10 @@
     "Snippets"
   ],
   "keywords": [
-    "vcg",
-    "visual",
-    "china",
-    "group",
+    "css",
+    "js",
+    "ts",
+    "scss",
     "fe"
   ],
   "activationEvents": [
@@ -27,12 +27,6 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "extension.helloWorld",
-        "title": "Hello World"
-      }
-    ],
     "snippets": [
       {
         "language": "javascript",
@@ -66,11 +60,16 @@
     "watch": "tsc -watch -p ./",
     "pretest": "yarn run compile",
     "test": "node ./out/test/runTest.js",
-    "release": "standard-version"
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/npm": "^7.0.5",
+    "@semantic-release/release-notes-generator": "^9.0.1",
     "@types/glob": "^7.1.1",
     "@types/mocha": "^5.2.6",
     "@types/node": "^10.12.21",
@@ -78,7 +77,7 @@
     "glob": "^7.1.4",
     "husky": "^3.1.0",
     "mocha": "^6.1.4",
-    "standard-version": "^7.0.0",
+    "semantic-release": "^17.0.8",
     "tslint": "^5.12.1",
     "typescript": "^3.3.1",
     "vscode-test": "^1.2.0"
@@ -87,5 +86,51 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "release": {
+    "branches": [
+      "master",
+      "develop"
+    ],
+    "debug": true,
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            {
+              "path": "fetoolkit-*.vsix",
+              "label": "FE Toolkit Package",
+              "name": "FE Toolkit.vsix"
+            }
+          ]
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "asstes/*",
+            "docs/*",
+            "languages/*",
+            "snippets/*",
+            "src/*",
+            "CHANGELOG.md",
+            "package.json",
+            "yarn.lock"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
+    ]
   }
 }
