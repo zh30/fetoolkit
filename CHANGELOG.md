@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/zhanghecool/fetoolkit/compare/v0.4.0...v0.5.0) (2020-05-30)
+
+
+### Features
+
+* **readme.md:** add my blog link ([f3290bf](https://github.com/zhanghecool/fetoolkit/commit/f3290bf02adc6d17ac8b5777715d2fe34e6a0886))
+
 # [0.4.0](https://github.com/zhanghecool/fetoolkit/compare/v0.3.5...v0.4.0) (2020-05-30)
 
 
