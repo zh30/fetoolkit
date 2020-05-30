@@ -1,8 +1,12 @@
 # FE Toolkit
 
-[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/zhanghe.vcgfetoolkit.svg)](https://marketplace.visualstudio.com/items?itemName=zhanghe.vcgfetoolkit) [![Installs](https://vsmarketplacebadge.apphb.com/installs/zhanghe.vcgfetoolkit.svg)](https://marketplace.visualstudio.com/items?itemName=zhanghe.vcgfetoolkit) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)  
+[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/zhanghe.vcgfetoolkit.svg)](https://marketplace.visualstudio.com/items?itemName=zhanghe.vcgfetoolkit) [![Installs](https://vsmarketplacebadge.apphb.com/installs/zhanghe.vcgfetoolkit.svg)](https://marketplace.visualstudio.com/items?itemName=zhanghe.vcgfetoolkit) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 Front-end development toolkit.
+
+## My other user code snippet plugin: [Big Lvan](https://marketplace.visualstudio.com/items?itemName=zhanghe.biglvan)
+
+<div align="center"><a href="https://marketplace.visualstudio.com/items?itemName=zhanghe.biglvan" alt="Big lvan"><img src="https://cdn.jsdelivr.net/gh/zhanghecool/biglvan/assets/icons/logo.png" width="100" /><p>Big lvan</p></a></div>
 
 # React Keys
 
