@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/zhanghecool/fetoolkit/compare/v0.3.5...v0.4.0) (2020-05-30)
+
+
+### Features
+
+* **readme.md:** 增加大伊万的引导链接 ([b5398c7](https://github.com/zhanghecool/fetoolkit/commit/b5398c7700d4b220330432b619de7c3ea576fff7))
+
 ## [0.3.5](https://github.com/zhanghecool/fetoolkit/compare/v0.3.4...v0.3.5) (2020-05-29)
 
 
