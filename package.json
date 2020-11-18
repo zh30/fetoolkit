@@ -77,7 +77,7 @@
     "glob": "^7.1.4",
     "husky": "^3.1.0",
     "mocha": "^6.1.4",
-    "semantic-release": "^17.0.8",
+    "semantic-release": "^17.2.3",
     "tslint": "^5.12.1",
     "typescript": "^3.3.1",
     "vscode-test": "^1.2.0"
